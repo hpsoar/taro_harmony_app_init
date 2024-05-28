@@ -18,7 +18,8 @@ const app = Taro.getApp();
 function Index() {
   Taro.useLoad(() => {
     console.log("Page loaded.");
-    console.log(`${app}`);
+    console.log(`app对象属性：${Object.keys(app)}`);
+    console.log(`app对象属性：${app.hello}`);
   });
   return __combine_nesting_style__( /* @__PURE__ */jsx(TaroViewTagName, {
     __hmStyle: calcStaticStyle(__inner_style__(), "index"),
