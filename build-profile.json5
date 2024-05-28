@@ -7,12 +7,12 @@
         "signingConfig": "default",
         "compatibleSdkVersion": "4.0.0(10)",
         "targetSdkVersion": "5.0.0(12)",
-        "runtimeOS": "HarmonyOS",
+        "runtimeOS": "HarmonyOS"
       }
     ],
     "buildModeSet": [
       {
-        "name": "debug",
+        "name": "debug"
       },
       {
         "name": "release"
@@ -21,7 +21,7 @@
   },
   "modules": [
     {
-      "name": "entry",
+      "name": "default",
       "srcPath": "./entry",
       "targets": [
         {
